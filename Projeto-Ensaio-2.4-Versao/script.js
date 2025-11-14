@@ -15,7 +15,7 @@ function mostrarCultos() {
 
 function mostrarEnsaios() {
     paginaCultos.classList.add('hidden');
-    paginaCultos.classList.add('hidden');
+    paginaEventos.classList.add('hidden');
     paginaEnsaios.classList.remove('hidden');
 }
 
