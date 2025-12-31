@@ -1,8 +1,4 @@
-/* ================================================= */
-/* ARQUIVO CSS FINAL (COM CORREÇÃO PARA CELULAR REAL)*/
-/* ================================================= */
 
-/* ====== GERAL E CORREÇÃO DE ROLAGEM ====== */
 html {
     /* Manda o navegador calcular o tamanho das caixas de uma forma mais inteligente.
        Isso impede que 'padding' (espaço interno) e 'border' (borda) criem espaço extra
@@ -19,7 +15,7 @@ html {
     box-sizing: inherit;
 }
 
-/* ====== BODY ====== */
+
 body {
     /* Ativa o modo "Flexbox", que transforma o body em um organizador inteligente de layout. */
     display: flex;
@@ -27,7 +23,7 @@ body {
     /* Diz ao organizador para empilhar os itens (header, section, footer) em uma coluna vertical. */
     flex-direction: column;
     
-    /* AQUI ESTÁ A CORREÇÃO DEFINITIVA PARA CELULAR REAL */
+
     /* Garante que a página tenha no mínimo a altura REAL da tela. 'dvh' (Dynamic Viewport Height)
        é uma unidade moderna que se ajusta às barras do navegador (endereço, etc.) que aparecem e somem no celular. */
     min-height: 100dvh;
@@ -146,7 +142,6 @@ li {
   border-radius: 5px;
   text-align: left;
   
-  /* --- AJUSTES FINAIS --- */
 
   /* 1. Adicione a margem APENAS na vertical (para cima/baixo) 
      Removemos o 'auto' para o Grid poder controlar o alinhamento */
@@ -157,13 +152,9 @@ li {
      para o 'max-content' funcionar corretamente */
   white-space: nowrap; 
 
-  /* 3. (IMPORTANTE) REMOVA AS LINHAS:
-     max-width: 400px;
-     margin: 8px auto; 
-  */
 }
 
-/* A CLASSE MAIS IMPORTANTE! */
+
 /* Qualquer elemento com a classe "hidden" vai sumir da tela. */
 .hidden {
     display: none;
@@ -199,15 +190,11 @@ li {
 
 
 
+/* =======================================================================
+
+/* Regras especificas para celulares 
 
 
-
-
-
-
-/* ======================================================== */
-/* ====== REGRAS ESPECIAIS PARA TELAS PEQUENAS (CELULAR) ====== */
-/* ======================================================== */
 
 /* A regra abaixo só será aplicada em telas com largura máxima de 768px (celulares e tablets pequenos).
    No PC, tudo que está aqui dentro é completamente ignorado. */
@@ -240,9 +227,6 @@ li {
     }
 
 
-    /* ======================================= */
-    /* ====== CORREÇÃO DA LISTA NO CELULAR ====== */
-    /* ======================================= */
 
     /* 1. Define que a lista (<ul>) deve ter 95% de largura
           e a RE-CENTRALIZA na tela. */
