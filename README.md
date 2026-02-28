@@ -1,6 +1,6 @@
-# Histórico de Desenvolvimento - Plataforma CCB
+# Histórico de Desenvolvimento - Plataforma de Serviços (CCB)
 
-Este repositório funciona como um arquivo do processo de desenvolvimento da plataforma web de escalas e serviços. 
+Este repositório funciona como um arquivo do processo de desenvolvimento da plataforma web dos cultos e serviços. 
 
 ## Sobre este repositório
 O objetivo principal deste espaço é registar a linha do tempo do projeto. Aqui encontram-se guardadas as várias fases de construção da aplicação, desde as primeiras linhas de código e testes iniciais até às versões que antecederam o lançamento final.
